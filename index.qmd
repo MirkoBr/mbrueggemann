@@ -10,15 +10,13 @@ about:
         href: https://www.linkedin.com/in/mirko-br%C3%BCggemann-1249b81b3/
       - text: GitHub
         href: https://github.com/mirkobr
-      - text: Google Scholar
-        href: https://scholar.google.com/citations?user=JDbZMKoAAAAJ&hl=en
       - text: Mail
         href: mirko.brueggemann@mail.de
 ---
 
 # **About me**
 
-Bioinformatic researcher with over 10 years experience and dedicated scientist with strong background in post-transcriptional RNA regulation and cancer biology. Expert in pipeline and package development, specialised for high-throughput datasets.
+Bioinformatic researcher with over 10 years experience and dedicated scientist with strong background in (post-) transcriptional RNA regulation and cancer biology. Expert in pipeline and package development, specialized for high-throughput datasets.
 
 ------------------------------------------------------------------------
 
