@@ -5,14 +5,20 @@ project:
 website:
   title: "Dr. Mirko Brüggemann"
   navbar:
+    background: primary
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: projects.qmd
+        text: Projects
+      - href: publications.qmd
+        text: Publications
 
 format:
   html:
-    theme: cosmo
+    theme:
+        light: flatly
+        dark: slate
     css: styles.css
     toc: true
 

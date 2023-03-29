@@ -6,16 +6,35 @@ about:
   image-shape: rounded
   image-width: 15em
   links:
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/mirko-br%C3%BCggemann-1249b81b3/
       - text: GitHub
         href: https://github.com/mirkobr
+      - text: Google Scholar
+        href: https://scholar.google.com/citations?user=JDbZMKoAAAAJ&hl=en
+      - text: Mail
+        href: mirko.brueggemann@mail.de
 ---
 
-This is my personal testing space for a website about all of my projects
+# **About me**
 
-This is a Quarto website.
+Bioinformatic researcher with over 10 years experience and dedicated scientist with strong background in post-transcriptional RNA regulation and cancer biology. Expert in pipeline and package development, specialised for high-throughput datasets.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+------------------------------------------------------------------------
 
-```{r}
-1 + 1
-```
+# **Experience**
+
+**Postdoctoral researcher** (2021-present) \| Buchmann Institute for Molecular Life Sciences \| Goethe University Frankfurt
+
+**PhD Student** (2017-2021) \| Buchmann Institute for Molecular Life Sciences \| Goethe University Frankfurt
+
+------------------------------------------------------------------------
+
+# **Education**
+
+**PhD in Bioinformatics** (2021) \| Buchmann Institute for Molecular Life Sciences \| Goethe University Frankfurt
+
+**MS in Bioinformatics** (2016) \| Institute for Cell Biology and Neurosciences \| Goethe University Frankfurt
+
+**BS in Bioinformatics** (2013) \| Institute for Cell Biology and Neurosciences \| Goethe University Frankfurt
+

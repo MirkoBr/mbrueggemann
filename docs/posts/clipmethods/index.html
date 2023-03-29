@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Mirko Brüggemann">
+<meta name="dcterms.date" content="2020-06-01">
+<meta name="description" content="iCLIP data analysis: A complete pipeline from sequencing reads to RBP binding sites">
 
-<title>Dr.&nbsp;Mirko Brüggemann - Publications</title>
+<title>Dr.&nbsp;Mirko Brüggemann - A bioinformatics pipeline for iCLIP data analysis</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -62,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -72,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Dr.&nbsp;Mirko Brüggemann</span>
     </a>
   </div>
@@ -82,16 +85,16 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="../../index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link" href="../../projects.html">
+ <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html">
- <span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="../../publications.html">
+ <span class="menu-text">Publications</span></a>
   </li>  
 </ul>
               <div class="quarto-toggle-container">
@@ -107,21 +110,53 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#a-complete-pipeline-from-sequencing-reads-to-rbp-binding-sites" id="toc-a-complete-pipeline-from-sequencing-reads-to-rbp-binding-sites" class="nav-link active" data-scroll-target="#a-complete-pipeline-from-sequencing-reads-to-rbp-binding-sites">A complete pipeline from sequencing reads to RBP binding sites</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Publications</h1>
-</div>
+<h1 class="title">A bioinformatics pipeline for iCLIP data analysis</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">package development</div>
+    <div class="quarto-category">software</div>
+    <div class="quarto-category">Bioconductor</div>
+    <div class="quarto-category">Binding sites</div>
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">iCLIP</div>
+    <div class="quarto-category">RBP</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    iCLIP data analysis: A complete pipeline from sequencing reads to RBP binding sites
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Mirko Brüggemann </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 1, 2020</p>
+    </div>
+  </div>
   
     
   </div>
@@ -129,10 +164,14 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>I’ve used my</p>
-<p>I am a postdoctoral Researcher at the Buchmann Institute for Molecular Life Sciences in the Computational RNA Biology group headed by Dr.&nbsp;Kathi Zarnack.</p>
+<section id="a-complete-pipeline-from-sequencing-reads-to-rbp-binding-sites" class="level2">
+<h2 class="anchored" data-anchor-id="a-complete-pipeline-from-sequencing-reads-to-rbp-binding-sites">A complete pipeline from sequencing reads to RBP binding sites</h2>
+<p><img src="./methods.png" class="img-fluid" width="666"></p>
+<p>Precise knowledge on the binding sites of an RNA-binding protein (RBP) is key to understand (post-) transcriptional gene regulation. This information can be obtained from individual-nucleotide resolution UV crosslinking and immunoprecipitation (iCLIP) experiments. In this project we discribed the complete bioinformatic data analysis workflow to reliably detect RBP binding sites from iCLIP data. The workflow covers all steps from the initial quality control of the sequencing reads up to peak calling and quantification of RBP binding. For each tool, we explain the specific requirements for iCLIP data analysis and suggest optimized parameter settings.</p>
+<p>The full manuscript can be found at <a href="https://www.sciencedirect.com/science/article/pii/S1046202318304948">Methods</a> and an updated version of the binding site definition part is published as the R/ Bioconductor packge <code>BindingSiteFinder</code> <a href="https://bioconductor.org/packages/release/bioc/html/BindingSiteFinder.html">Bioconductor page</a>.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

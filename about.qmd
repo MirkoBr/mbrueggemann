@@ -1,9 +1,12 @@
 ---
-title: "About"
+title: "Publications"
 ---
 
-About this site
 
-```{r}
-1 + 1
-```
+
+
+
+
+I've used my 
+
+I am a postdoctoral Researcher at the Buchmann Institute for Molecular Life Sciences in the Computational RNA Biology group headed by Dr. Kathi Zarnack. 
