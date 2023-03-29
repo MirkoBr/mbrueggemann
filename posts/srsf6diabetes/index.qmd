@@ -2,7 +2,7 @@
 title: "SRSF6 positioning determines the splicing fate in human pancreatic β-cells"
 description: "The RNA-binding profile of the splicing factor SRSF6 in immortalized human pancreatic β-cells"
 author: "Mirko Brüggemann"
-date: "2020-12-01"
+date: "2020-12-29"
 image: srsf6_icon.png
 draft: false
 categories:
@@ -24,4 +24,3 @@ categories:
 In pancreatic β-cells SRSF6 down-regulation promotes β-cell demise through splicing dysregulation of central genes for β-cells function and survival. In this project we characterized the SRSF6 binding landscape in human pancreatic β-cells and identified a purine-rich SRSF6 consensus motif. We also observed, that the positioning of SRSF6 determined the splicing fate by either promoting exon skipping or exon inclusion. Our results also show that such splicing changes can be modulated by the use of antisense oligonucleotides.
 
 The full manuscript can be found at [Life Science Alliance](https://www.life-science-alliance.org/content/4/3/e202000825).
-
