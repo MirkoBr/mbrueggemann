@@ -16,7 +16,7 @@ about:
 
 # **About me**
 
-Bioinformatic researcher with over 10 years experience and dedicated scientist with strong background in (post-) transcriptional RNA regulation and cancer biology. Expert in pipeline and package development, specialized for high-throughput datasets.
+I am a bioinformatician and dedicated scientist interested in (post-) transcriptional RNA regulation and cancer biology. My passion is the visualization and integration of high-throughput data. Looking at results from as many angles and perspectives as possible is my ambition. 
 
 ------------------------------------------------------------------------
 
