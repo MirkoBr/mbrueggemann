@@ -1,6 +1,6 @@
 ---
 title: "Dr. Mirko Brüggemann"
-image: ./images/mirko.jpg
+image: ./images/mirko_small.jpeg
 about: 
   template: trestles
   image-shape: rounded
