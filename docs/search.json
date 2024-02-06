@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Dr. Mirko Brüggemann",
     "section": "",
-    "text": "About me\nI am a bioinformatician and dedicated scientist interested in (post-) transcriptional RNA regulation and cancer biology. My passion is the visualization and integration of high-throughput data. My professional goal is to analyze findings from multiple perspectives and angles, with the aim to positively impact patients’ lives.\n\n\n\nExperience\nPostdoctoral researcher (2021-present) | Buchmann Institute for Molecular Life Sciences | Goethe University Frankfurt\nPhD Student (2017-2021) | Buchmann Institute for Molecular Life Sciences | Goethe University Frankfurt\n\n\n\nEducation\nPhD in Bioinformatics (2021) | Buchmann Institute for Molecular Life Sciences | Goethe University Frankfurt\nMS in Bioinformatics (2016) | Institute for Cell Biology and Neurosciences | Goethe University Frankfurt\nBS in Bioinformatics (2013) | Institute for Cell Biology and Neurosciences | Goethe University Frankfurt"
+    "text": "About me\nI am a bioinformatician and dedicated scientist interested in (post-) transcriptional RNA regulation and cancer biology. Trained developer for bioinformatic pipelines and main developer of the BindingSiteFinder R/Bioconductor package. I like to communicate my results through high-level data visualizations and dynamic dashboards.\n\n\n\nExperience\nTechnical Consulting Manager (2023-present) | CRATOS GmbH | Hanover\nPostdoctoral Researcher (2021-2023) | Buchmann Institute for Molecular Life Sciences | Goethe University Frankfurt\nPhD Student (2017-2021) | Buchmann Institute for Molecular Life Sciences | Goethe University Frankfurt\n\n\n\nEducation\nPhD in Bioinformatics (2021) | Buchmann Institute for Molecular Life Sciences | Goethe University Frankfurt\nMS in Bioinformatics (2016) | Institute for Cell Biology and Neurosciences | Goethe University Frankfurt\nBS in Bioinformatics (2013) | Institute for Cell Biology and Neurosciences | Goethe University Frankfurt"
   },
   {
     "objectID": "about.html",
@@ -138,5 +138,61 @@
     "title": "A bioinformatics pipeline for iCLIP data analysis",
     "section": "",
     "text": "Precise knowledge on the binding sites of an RNA-binding protein (RBP) is key to understand (post-) transcriptional gene regulation. This information can be obtained from individual-nucleotide resolution UV crosslinking and immunoprecipitation (iCLIP) experiments. In this project we discribed the complete bioinformatic data analysis workflow to reliably detect RBP binding sites from iCLIP data. The workflow covers all steps from the initial quality control of the sequencing reads up to peak calling and quantification of RBP binding. For each tool, we explain the specific requirements for iCLIP data analysis and suggest optimized parameter settings.\nThe full manuscript can be found at Methods and an updated version of the binding site definition part is published as the R/ Bioconductor packge BindingSiteFinder Bioconductor page."
+  },
+  {
+    "objectID": "posts/srsf6hypoxia/index.html#the-effect-of-srsf6-poison-cassette-exon-splicing-in-hypoxia",
+    "href": "posts/srsf6hypoxia/index.html#the-effect-of-srsf6-poison-cassette-exon-splicing-in-hypoxia",
+    "title": "SRSF6 poison cassette exon splicing as hypoxia response",
+    "section": "",
+    "text": "Hypoxia induces massive changes in alternative splicing (AS) to adapt cells to the lack of oxygen. In this project SRSF6 was found to be a key factor in the AS response to hypoxia. A strong reduction in SRSF6 levels in acute hypoxia led to exon skipping and triggered nuclear speckle dispersal as a mechanism for the cell to reprogram the gene expression profile. We found this mechanism to be active in various cancer types and further propose a tumor suppressor function.\nThe full manuscript can be found at Nucleic Acids Research."
+  },
+  {
+    "objectID": "posts/pge2signaling/index.html#the-effect-of-prostaglandin-e2-signaling-disruption-in-cancer-associated-fibroblasts",
+    "href": "posts/pge2signaling/index.html#the-effect-of-prostaglandin-e2-signaling-disruption-in-cancer-associated-fibroblasts",
+    "title": "Prostaglandin E2 Signaling in Cancer-Associated Fibroblasts",
+    "section": "",
+    "text": "The activation and differentiation of cancer-associated fibroblasts (CAF) are involved in tumor progression. Here, we showed that the tumor-promoting lipid mediator prostaglandin E2 (PGE2) plays a paradoxical role in CAF activation and tumor progression. The inflammatory lipid prostaglandin E2 suppresses cancer-associated fibroblast expansion and activation limited primary mammary tumor growth while promoting metastasis. These data characterized in this project suggests a new pathway of regulating inflammatory CAF activation, which affects breast cancer progression.\nThe full manuscript can be found at Cancer Research."
+  },
+  {
+    "objectID": "posts/differentialbinding/index.html#the-differential-binding-package-extension",
+    "href": "posts/differentialbinding/index.html#the-differential-binding-package-extension",
+    "title": "Differential binding",
+    "section": "",
+    "text": "Understanding condition specific affinity changes of a RNA-binding protein (RBP) to a known binding site is the next level of understanding (post-) transcriptional regulartory processes in more detail.\nThe DifferentialBinding module will extend the BindingSiteFinder by various new features and functionalities, suited to identify RBP specific binding site changes in a transcriptome wide fashion. The extention is soon to be released and can be found on the BindingSiteFinder Bioconductor page."
+  },
+  {
+    "objectID": "posts/cafs/index.html#the-role-of-cancer-associated-fibroblasts-in-mammary-carcinoma-development",
+    "href": "posts/cafs/index.html#the-role-of-cancer-associated-fibroblasts-in-mammary-carcinoma-development",
+    "title": "Phenotypic Plasticity of Fibroblasts during Mammary Carcinoma Development",
+    "section": "",
+    "text": "Cancer-associated fibroblasts (CAFs) in the tumor microenvironment contribute to all stages of tumorigenesis and are usually considered to be tumor-promoting cells. In this project we found a remarkable degree of CAF herterogenity which changed during mammary cancer development. We created whole transcriptome longitudinal data on CAF development from early- and late-stage tumors and observed a shift in fibroblast populations over time, which was negatively associated with patient survival. We then trained a random forest classification model to compute a gene signature that had predicive power in bulk tumor patient samples.\nThe full manuscript can be found at International Journal of Molecular Sciences."
+  },
+  {
+    "objectID": "posts/bindingsitefinder/index.html#the-bindingsitefinder-package",
+    "href": "posts/bindingsitefinder/index.html#the-bindingsitefinder-package",
+    "title": "BindingSiteFinder",
+    "section": "",
+    "text": "Precise knowledge on the binding sites of an RNA-binding protein (RBP) is key to understand (post-) transcriptional regulatory processes.\nThe BindingSiteFinder software package provides a full workflow for RBP binding site definition. The package provides function as well as rich visualizations and is well integrated in state-of-the-art and widely used Bioconductor classes, such as GenomicRanges and SummarizedExperiments. For details please see the vignette."
+  },
+  {
+    "objectID": "posts/clipmethods/index.html#a-complete-pipeline-from-sequencing-reads-to-rbp-binding-sites",
+    "href": "posts/clipmethods/index.html#a-complete-pipeline-from-sequencing-reads-to-rbp-binding-sites",
+    "title": "A bioinformatics pipeline for iCLIP data analysis",
+    "section": "",
+    "text": "Precise knowledge on the binding sites of an RNA-binding protein (RBP) is key to understand (post-) transcriptional gene regulation. This information can be obtained from individual-nucleotide resolution UV crosslinking and immunoprecipitation (iCLIP) experiments. In this project we discribed the complete bioinformatic data analysis workflow to reliably detect RBP binding sites from iCLIP data. The workflow covers all steps from the initial quality control of the sequencing reads up to peak calling and quantification of RBP binding. For each tool, we explain the specific requirements for iCLIP data analysis and suggest optimized parameter settings.\nThe full manuscript can be found at Methods and an updated version of the binding site definition part is published as the R/ Bioconductor packge BindingSiteFinder Bioconductor page."
+  },
+  {
+    "objectID": "posts/mkrn/index.html#the-role-of-mkrn1-in-maintaining-proteome-integrity",
+    "href": "posts/mkrn/index.html#the-role-of-mkrn1-in-maintaining-proteome-integrity",
+    "title": "Ribosome-associated quality control by MKRN1",
+    "section": "",
+    "text": "Translating ribosomes that encounter poly(A) sequences are terminally stalled, as quality control mechanism, followed by ribosome recycling and decay of the truncated nascent polypeptide via ribosome-associated quality control. In this project we demonstrated that the conserved RNA-binding E3 ubiquitin ligase Makorin Ring Finger Protein 1 (MKRN1) promotes ribosome stalling at poly(A) sequences during ribosome-associated quality control. We observed a direct interaction with the cytoplasmic poly(A)-binding protein (PABPC1) as well as precice position upstream of poly(A) tails in the mRNA.Thus we propose that MKRN1 mediates the recognition of poly(A) tails to prevent the production of erroneous proteins from prematurely polyadenylated transcripts, thereby maintaining proteome integrity.\nThe full manuscript can be found at Genome Biology."
+  },
+  {
+    "objectID": "posts/srsf6diabetes/index.html#the-rna-binding-protein-srsf6-in-human-pancreatic-β-cells",
+    "href": "posts/srsf6diabetes/index.html#the-rna-binding-protein-srsf6-in-human-pancreatic-β-cells",
+    "title": "SRSF6 positioning determines the splicing fate in human pancreatic β-cells",
+    "section": "",
+    "text": "In pancreatic β-cells SRSF6 down-regulation promotes β-cell demise through splicing dysregulation of central genes for β-cells function and survival. In this project we characterized the SRSF6 binding landscape in human pancreatic β-cells and identified a purine-rich SRSF6 consensus motif. We also observed, that the positioning of SRSF6 determined the splicing fate by either promoting exon skipping or exon inclusion. Our results also show that such splicing changes can be modulated by the use of antisense oligonucleotides.\nThe full manuscript can be found at Life Science Alliance."
   }
 ]
