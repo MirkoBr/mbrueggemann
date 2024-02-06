@@ -16,13 +16,15 @@ about:
 
 # **About me**
 
-I am a bioinformatician and dedicated scientist interested in (post-) transcriptional RNA regulation and cancer biology. My passion is the visualization and integration of high-throughput data. My professional goal is to analyze findings from multiple perspectives and angles, with the aim to positively impact patients' lives.
+I am a bioinformatician and dedicated scientist interested in (post-) transcriptional RNA regulation and cancer biology. Trained developer for bioinformatic pipelines and main developer of the [BindingSiteFinder](https://bioconductor.org/packages/release/bioc/html/BindingSiteFinder.html) R/Bioconductor package. I like to communicate my results through high-level data visualizations and dynamic dashboards.
 
 ------------------------------------------------------------------------
 
 # **Experience**
 
-**Postdoctoral researcher** (2021-present) \| Buchmann Institute for Molecular Life Sciences \| Goethe University Frankfurt
+**Technical Consulting Manager** (2023-present) \| CRATOS GmbH \| Hanover
+
+**Postdoctoral Researcher** (2021-2023) \| Buchmann Institute for Molecular Life Sciences \| Goethe University Frankfurt
 
 **PhD Student** (2017-2021) \| Buchmann Institute for Molecular Life Sciences \| Goethe University Frankfurt
 
