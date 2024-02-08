@@ -1,0 +1,22 @@
+---
+title: "Mapping protein–RNA binding in plants with individual-nucleotide-resolution UV cross-linking and immunoprecipitation (plant iCLIP2)"
+description: "The adapted iCLIP2 protocol for maping protein-RNA interactions in plants"
+author: "Mirko Brüggemann"
+date: "2024-01-01"
+image: plant_logo.png
+draft: false
+categories:
+  - Plants
+  - Pipeline
+  - Binding sites
+  - iCLIP
+  - RBP
+---
+
+## The plant iCLIP2 protocol
+
+![](./plant_post.png)
+
+Despite crucial roles of RNA-binding proteins (RBPs) in plant physiology and development, methods for determining their transcriptome-wide binding landscape are less developed than those used in other model organisms. Cross-linking and immunoprecipitation (CLIP) methods (based on UV-mediated generation of covalent bonds between RNAs and cognate RBPs in vivo, purification of the cross-linked complexes and identification of the co-purified RNAs by high-throughput sequencing) have been applied mainly in mammalian cells growing in monolayers or in translucent tissue. We have developed plant iCLIP2, an efficient protocol for performing individual-nucleotide-resolution CLIP (iCLIP) in plants, tailored to overcome the experimental hurdles posed by plant tissue. We optimized the UV dosage to efficiently cross-link RNA and proteins in plants and expressed epitope-tagged RBPs under the control of their native promoters in loss-of-function mutants. We select epitopes for which nanobodies are available, allowing stringent conditions for immunopurification of the RNA–protein complexes to be established. To overcome the inherently high RNase content of plant cells, RNase inhibitors are added and the limited RNA fragmentation step is modified. We combine the optimized isolation of RBP-bound RNAs with iCLIP2, a streamlined protocol that greatly enhances the efficiency of library preparation for high-throughput sequencing. Plant researchers with experience in molecular biology and handling of RNA can complete this iCLIP2 protocol in \~5 d. Finally, we describe a bioinformatics workflow to determine targets of Arabidopsis RBPs from iCLIP data, covering all steps from downloading sequencing reads to identifying cross-linking events (https://github.com/malewins/Plant-iCLIPseq), and present the R/Bioconductor package BindingSiteFinder to extract reproducible binding sites (https://bioconductor.org/packages/release/bioc/html/BindingSiteFinder.html).
+
+The full manuscript can be found at [Nautre Protocols](https://www.nature.com/articles/s41596-023-00935-3).
