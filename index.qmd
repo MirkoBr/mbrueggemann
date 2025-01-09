@@ -16,13 +16,20 @@ about:
 
 # **About me**
 
-I am a bioinformatician and dedicated scientist interested in (post-) transcriptional RNA regulation and cancer biology. Trained developer for bioinformatic pipelines and main developer of the [BindingSiteFinder](https://bioconductor.org/packages/release/bioc/html/BindingSiteFinder.html) R/Bioconductor package. I like to communicate my results through high-level data visualizations and dynamic dashboards.
+With nearly a decade of experience as a bioinformatician, I specialize in cancer biology and RNA regulation research. Over the years, I have developed multiple bioinformatics pipelines for processing next-generation sequencing (NGS) data, ensuring efficient and accurate data analysis for high-impact research.
+
+As the primary developer of the R/Bioconductor package [BindingSiteFinder](https://bioconductor.org/packages/release/bioc/html/BindingSiteFinder.html), I have contributed to advancing tools for genomic data interpretation and enhancing reproducibility within the research community.
+
+In my current role on the Tailored Omics team at BioNTech SE, I am privileged to contribute to the development of mRNA-based cancer vaccine platforms, supporting innovative approaches to precision medicine and transformative cancer therapies.
+
 
 ------------------------------------------------------------------------
 
 # **Experience**
 
-**Technical Consulting Manager** (2023-present) \| CRATOS GmbH \| Hanover
+**Scientist Bioinformatics R&D - Tailored Omics** (2024-present) \| BioNTech SE \| Mainz
+
+**Technical Consulting Manager** (2023-2024) \| CRATOS GmbH \| Hanover
 
 **Postdoctoral Researcher** (2021-2023) \| Buchmann Institute for Molecular Life Sciences \| Goethe University Frankfurt
 

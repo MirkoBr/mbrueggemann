@@ -6,7 +6,7 @@ title: "Publications"
 
 Lewinski, M., **Brüggemann, M.**, Köster, T., Reichel, M., Bergelt, T., Meyer, K., ... & Staiger, D. (2024). Mapping protein–RNA binding in plants with individual-nucleotide-resolution UV cross-linking and immunoprecipitation (plant iCLIP2). *Nature Protocols*, 1-52.
 
-Pacholewska, A., Lienhard, M., **Brueggemann, M.**, Haenel, H., Bilalli, L., Koenigs, A., ... & Schweiger, M. R. (2024). Long-read transcriptome sequencing of CLL and MDS patients uncovers molecular effects of SF3B1 mutations. *bioRxiv*, 2024-01.
+Pacholewska, A., Lienhard, M., **Brüggemann, M.**, Haenel, H., Bilalli, L., Koenigs, A., ... & Schweiger, M. R. (2024). Long-read transcriptome sequencing of CLL and MDS patients uncovers molecular effects of SF3B1 mutations. *bioRxiv*, 2024-01.
 
 ### 2023
 
